@@ -6,7 +6,7 @@
   "short_name": "EchtkPvL",
   "author": "Jonas Berner @ EchtkPvL",
 
-  "version": "0.4.8.65535",
+  "version": "0.5.0",
 
   "permissions": [
     "activeTab",

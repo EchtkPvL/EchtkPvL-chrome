@@ -5,7 +5,7 @@
  * ToDo: case switch
  *
  * @author    EchtkPvL
- * @copyright 28.11.2018 EchtkPvL
+ * @copyright 08.02.2021 EchtkPvL
  */
 
 /*
@@ -49,13 +49,6 @@ function go(regex, url){
   if(result != null){
     console.log("Replaced! " + oldurl);
     window.history.replaceState(null, null, url.replace("!!id!!", result.groups.id));
-
-    chrome.storage.local.set({"key": "baum"}, function(){
-      alert(oldurl);
-    });
-    chrome.storage.local.get(['key'], function(result){
-      alert('Value currently is ' + JSON.stringify(result));
-    });
   }
 
   return true;
