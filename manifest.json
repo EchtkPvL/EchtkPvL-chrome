@@ -6,12 +6,10 @@
   "short_name": "EchtkPvL",
   "author": "Jonas Berner @ EchtkPvL",
 
-  "version": "0.5.0",
+  "version": "0.5.1",
 
   "permissions": [
-    "activeTab",
-    "storage",
-    "contextMenus"
+    "activeTab"
   ],
   "background": {
     "scripts": [
